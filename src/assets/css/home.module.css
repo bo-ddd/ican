@@ -1,0 +1,33 @@
+.banner{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.rowList{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.rowList img{
+    display: block;
+    width: 100%;
+}
+
+.rowList p{
+    padding: 5px 0;
+}
+

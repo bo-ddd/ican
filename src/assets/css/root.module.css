@@ -1,0 +1,35 @@
+:root{
+    --footer-height: 50px;
+}
+
+.header{
+    height: 60px;
+    background: #20232c;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.main{
+    min-height: calc(100vh - 60px - var(--footer-height) - 20px);
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.footer{
+    background:#282c37;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    height: var(--footer-height);
+    line-height: var(--footer-height);
+}
+
+.footer a{
+    margin-right: 20px;
+    color:#436be2;
+}
